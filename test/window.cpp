@@ -1,3 +1,8 @@
+/* How to compile using dynamic linking in terminal in linux
+ * g++ window.cpp -lglfw -lGL -lm -lX11 -lpthread -lXi -lXrandr -ldl
+ * -llibrary is used to add library for compiling
+ */
+
 #include<GLFW/glfw3.h>
 
 int main(void)
